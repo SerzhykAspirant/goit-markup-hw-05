@@ -445,6 +445,61 @@ color: #404BBF;
 .page-footer-icon-svg {
     fill: #f4f4fd;
 }
+.footer-third-column {
+    margin-left: 80px;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.footer-input::placeholder {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.0;
+    letter-spacing: 0.04em;
+}
+
+.footer-btn {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-btn-icon {
+    fill: #FFFFFF;
+    margin-left: 16px;
+}
 /* Modal form */
 .backdrop {
     position: fixed;
